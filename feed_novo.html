@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feed</title>
+    <link rel='stylesheet' href='css/reset.css'>
+    <link rel='stylesheet' href='css/style.css'>
+    <link rel='stylesheet' href='css/feed_novo.css'>
+    <script src="js/script_feed.js"></script>
+</head>
+
+<body>
+
+    <!-- Inicio - FEED -->
+    <header>
+        <a class='voltar' href="index.html">
+            <img class='botao' src="img/voltar.svg" alt="botão de retorno">
+        </a>
+        <h2 class='titulo'> Feed </h2>
+
+        <img class='sino' src="img/logo_ifome.jpg" alt="botão do sino">
+    </header>
+
+    <!-- MEIO -->
+    <main>
+        <article>
+            <h2> Láisa Camilly </h2>
+            <img class='comida' src="img/poke.jpeg" alt="Imagem 1">
+            <p class='texto'> Comer um poke com as amigas.. </p>
+            <a href="#">
+                <img class='like' src='img/botoes.png' alt='botão do like'>
+            </a>
+        </article>
+
+        <article>
+            <h2> Rafael Bravo </h2>
+            <img class='comida' src="img/assado.jpeg" alt="Imagem 1">
+            <p class='texto'> Receita que fiz de batata assada no forno... </p>
+            <a href="#">
+                <img class='like' src='img/botoes.png' alt='botão do like'>
+            </a>
+        </article>
+
+        <article>
+            <h2> Lorenzo Agiman </h2>
+            <img class='comida' src="img/farofa.jpeg" alt="Imagem 1">
+            <p class='texto'> Tentei reproduzir a fafora da minha mãe.. </p>
+            <a href="#">
+                <img class='like' src='img/botoes.png' alt='botão do like'>
+            </a>
+        </article>
+
+        <a href="#popupAdicionar" class="Adicionar">
+            <img src="img/Adicionar.png" alt="Adicionar" class="botao">
+        </a>
+
+        <!-- Pop-up Adicionar Item -->
+        <div id="popupAdicionar" class="popup">
+            <div class="conteudo-popup">
+                <a href="#" class="fechar">&times;</a> <!-- Link para fechar o pop-up -->
+                <h2>Nova Postagem</h2>
+                <ul>
+                    <li>
+                        <label for="foto">Adicione uma foto:</label>
+                        <input type="file" name="foto" id="foto" accept=".jpeg,.png">
+                    </li>
+                    <li>
+                        <label for="descrição">Descrição:</label>
+                        <input type="text" name="descrição" id="descrição">
+                    </li>
+                    <li>
+                        <a href="#" id="publicar">adicionar</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <!-- FIM - Parte do Footer -->
+    <footer>
+        <a href="receitas.html"><img src="img/caderno.png" alt="Icone das receitas" class="botao"></a>
+        <a href="geladeira.html"><img src="img/Geladeira.png" alt="Icone da geladeira" class="botao"></a>
+        <a href="feed_novo.html"><img src="img/Feed.png" alt="Icone do feed" class="botao"></a>
+    </footer>
+
+</body>
+
+</html>

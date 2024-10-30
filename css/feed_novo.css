@@ -1,0 +1,117 @@
+/* Parte do cabeçalho */
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: var(--vermelho);
+
+}
+
+.titulo {
+    font-family: var(--fonte-titulo);
+    font-size: 1.6rem;
+    align-self: center;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+.sino {
+    align-self: center;
+    margin-top: 0.2rem;
+    width: 4rem;
+    height: 3rem;
+}
+
+/* ------------------ */
+
+article {
+    border-radius: 2px;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    color: black;
+    font-family: var(--fonte-titulo);
+}
+
+.comida {
+    width: 20rem;
+    height: 15rem;
+}
+
+.like {
+    width: 5rem;
+    height: 2.5rem;
+    margin-right: 13rem;
+}
+
+.texto {
+    margin-top: 1rem;
+}
+
+.Adicionar {
+    position: fixed;
+    right: 0;
+    bottom: 5rem;
+}
+
+/* Estilo do pop-up */
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.conteudo-popup {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 90%;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.popup:target {
+    display: flex;
+    flex-direction: column;
+}
+
+.fechar {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-decoration: none;
+    font-size: 24px;
+    color: #333;
+}
+
+a#publicar {
+    text-decoration: none;
+    padding: .3rem 1rem .3rem 1rem;
+    color: black;
+    border: 1px solid black;
+}
+
+div.conteudo-popup ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin: 1.5rem;
+}

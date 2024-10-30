@@ -1,0 +1,239 @@
+:root {
+    --fonte-titulo: 'Open Sans', 'sans-serif';
+    --vermelho: #ff3131;
+    --amarelo: #ffb627;
+    --laranja: #e2711d;
+    --cinza: #F2F2F2;
+    --preto: #000000;
+    --branco: #FFFFFF;
+}
+
+/* INICIO */
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    overflow: scroll;
+    height: 82%;
+    position: relative;
+}
+
+header {
+    height: 4rem;
+    background-color: var(--vermelho);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: var(--fonte-titulo)
+}
+
+form {
+    display: flex;
+    align-self: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+input {
+    border-radius: .4rem;
+    padding: .5rem;
+
+}
+
+.botao {
+    height: 2rem;
+    width: 3rem;
+}
+
+footer .botao {
+    height: 3rem;
+    width: 3rem;
+    margin-bottom: .5rem;
+}
+
+.logo {
+    width: 4rem;
+    height: 4rem;
+}
+
+/* FIM */
+
+h1 {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: larger;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    height: 8%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    justify-content: space-around;
+    align-items: center;
+    bottom: 0;
+    background-color: white;
+    border-top: 1px solid black;
+    padding-bottom: .5rem;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    border-radius: 2px;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+ul {
+    list-style-type: disc;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+div {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+h2 {
+    padding: .3rem;
+    font-weight: bold;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    height: 3rem;
+    width: 10.3rem;
+    font-size: x-large;
+    border-radius: 10px;
+}
+
+button:active {
+    border-top-color: black;
+    border-right-color: gray;
+    border-bottom-color: gray;
+    border-left-color: black;
+    border-radius: 10px;
+}
+
+button:active span {
+    position: relative;
+    top: 1px;
+    left: 1px;
+}
+
+div h4 {
+    font-weight: bold;
+}
+
+div ul {
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+    padding-left: 2rem;
+}
+
+div ol {
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+    padding-left: 2rem;
+}
+
+a img {
+    display: flex;
+    flex-direction: column;
+    padding-top: .5rem;
+}
+
+img.receita {
+    height: 60%;
+    width: 90%;
+}
+
+.Adicionar {
+    position: fixed;
+    right: 0;
+    bottom: 5rem;
+}
+
+.Adicionar img {
+    background-color: transparent;
+    height: 3rem;
+    width: 3rem;
+}
+
+/* -------------*/
+article {
+    border-radius: 2px;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+h2 {
+    display: flex;
+    flex-direction: row;
+    margin-right: 8rem;
+    margin-top: 1rem;
+    font-family: var(--fonte-titulo);
+    margin-bottom: 1rem;
+}
+
+.comida {
+    width: 20rem;
+    height: 15rem;
+}
+
+.bla {
+    font-family: var(--fonte-titulo);
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.bla2 {
+    font-family: var(--fonte-titulo);
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+li {
+    margin-top: 0.4rem;
+}
+
+ul {
+    margin-bottom: 1.4rem;
+}
+
+a {
+    margin-top: 0.5rem;
+}
+
+.titulo {
+    font-family: var(--fonte-titulo);
+}
+
+.estilo {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+}
